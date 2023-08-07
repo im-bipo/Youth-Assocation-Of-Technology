@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.rotate90{
+    rotate: 90deg;
+}
+
+*:active{
+    background-color: none;
+    -webkit-tap-highlight-color: transparent !important; /* For WebKit-based browsers */
+  tap-highlight-color: transparent !important; /* For other browsers */
+}
+.active{
+  
+  color: red;
+}
