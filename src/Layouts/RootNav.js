@@ -32,7 +32,7 @@ function RootNav() {
         ) : (
           <>
           <Navbar/>
-          <div className='pt-16 text-primary'>
+          <div className='pt-1'>
           <Outlet/>
           </div>
           </>

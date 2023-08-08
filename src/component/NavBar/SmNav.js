@@ -23,42 +23,42 @@ function SmNav() {
     <>
       <div
         id="NavBox"
-        className="flex flex-col items-center top-0 duration-1000 fixed h-[100%] w-[100%] z-[1000] bg-blue-950 pt-20"
+        className="flex flex-col items-center top-0 duration-1000 fixed h-[100%] w-[100%] z-[1000] bg-gray-200 text-primary font-bold pt-20"
       >
         <div
           onClick={toggleNav}
           className=" cursor-pointer absolute right-0 p-5 top-0"
         >
-          <span className="inline-block w-7 h-[2px] bg-white absolute right-5 top-10 rotate-45"></span>
-          <span className="inline-block w-7 h-[2px] bg-white -rotate-45"></span>
+          <span className="inline-block w-7 h-[2px] bg-black absolute right-5 top-10 rotate-45"></span>
+          <span className="inline-block w-7 h-[2px] bg-black -rotate-45"></span>
         </div>
-        <Link onClick={toggleNav} to="/" className="py-3 my-10 border-b-2 ">
+        <Link onClick={toggleNav} to="/" className="py-3 my-10 border-primary border-b-2 ">
           Home
         </Link>
         <Link
           onClick={toggleNav}
           to="/about"
-          className="py-3 my-10 border-b-2 "
+          className="py-3 my-10 border-primary border-b-2 "
         >
           About
         </Link>
         <Link
           onClick={toggleNav}
           to="/projects"
-          className="py-3 my-10 border-b-2 "
+          className="py-3 my-10 border-primary border-b-2 "
         >
           Project
         </Link>
         <Link
           onClick={toggleNav}
           to="/events"
-          className="py-3 my-10 border-b-2 "
+          className="py-3 my-10 border-primary border-b-2 "
         >
           Events
         </Link>
       </div>
 
-      <div className="SmNav bottom-0 w-[100%] fixed flex items-center justify-center space-x-[20%] bg-blue-900 h-14 text-white z-10">
+      <div className="SmNav bottom-0 w-[100%] fixed flex items-center justify-center space-x-[20%] bg-gray-200 h-14 z-10">
         <NavLink
           to="/events"
           className="flex flex-col justify-center p-3 rounded-[50%]"
