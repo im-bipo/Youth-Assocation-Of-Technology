@@ -1,6 +1,6 @@
 .SmNav .active{
     color: rgb(255, 0, 0);
-    scale: 1.3;
+    font-size:130%;
     height: 2.2rem;
     transition: .3s;
 }

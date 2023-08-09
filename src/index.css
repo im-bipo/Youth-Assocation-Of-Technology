@@ -1,9 +1,32 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+:root {
+  --primary: rgb(0, 45, 129);
+  --darkBackground :#111827;
+}
 .rotate90{
     rotate: 90deg;
 }
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+width: 3px;
+}
+
+*::-webkit-scrollbar-track {
+background: rgb(208, 208, 208);
+border-radius: 5px;
+}
+
+*::-webkit-scrollbar-thumb {
+border-radius: 14px;
+background: var(--primary);
+}
+
+::-webkit-scrollbar-thumb:hover {
+background: red;
+} 
 
 *:active{
     background-color: none;

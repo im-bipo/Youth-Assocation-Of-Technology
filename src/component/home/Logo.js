@@ -88,7 +88,7 @@ function Logo() {
 
   return (
     
-    <div className="w-[24rem] h-[24rem] overflow-hidden">
+    <div className="w-[24rem] h-[24rem] overflow-hidden ">
       <div className="rotate-[-36deg] cursor-pointer">
         <div
           ref={waveRefs[0]}
