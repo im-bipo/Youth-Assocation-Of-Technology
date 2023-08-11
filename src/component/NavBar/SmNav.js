@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { NavLink, Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import "./SmNav.css";
 import { NavLinkList } from "./List";
 
@@ -37,11 +37,11 @@ function SmNav() {
         </div>
 
         {NavList.map((item) => (
-          <Link
+          <NavLink
             onClick={toggleNav}
             to={item.path}
             className="py-3 my-10 border-primary border-b-2 "
-          >{item.name}</Link>
+          >{item.name}</NavLink>
         ))}
       </div>
 
