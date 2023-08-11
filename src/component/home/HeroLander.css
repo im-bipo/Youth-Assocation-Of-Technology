@@ -1,0 +1,13 @@
+.bg-hero{
+    background-image: url("/src/assets/img/hero-bg-low.jpg");
+    background-size: cover;
+    background-position-x: -4rem;
+    background-position-y: 3.3rem;
+    background-repeat: no-repeat;
+
+}
+.hero-pic{
+    background-image: url("/src/assets/img/hero-pic.png");
+    background-size: cover;
+    background-position: center;
+}

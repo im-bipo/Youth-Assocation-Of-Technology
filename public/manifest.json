@@ -1,21 +1,20 @@
 {
-    "name": "CSIT Association of BMC",
-    "short_name": "CSIT-BMC",
-    "start_url": ".",
-    "display": "standalone",
-    "theme_color": "#214c89",
-    "background_color": "#ffffff",
-    "icons": [
-      {
-        "src": "./association.png",
-        "sizes": "192x192",
-        "type": "image/png"
-      },
-      {
-        "src": "./association.png",
-        "sizes": "512x512",
-        "type": "image/png"
-      }
-    ]
-  }
-  
+  "name": "CSIT Association of BMC",
+  "short_name": "CSIT-BMC",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#214c89",
+  "background_color": "#ffffff",
+  "icons": [
+    {
+      "src": "./association.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "./association.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
