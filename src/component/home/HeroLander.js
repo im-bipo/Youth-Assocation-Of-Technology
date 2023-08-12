@@ -6,12 +6,12 @@ import { NavLink } from "react-router-dom";
 function HeroLander() {
   return (
     <>
-      <div className="flex -mt-14">
+      <div className="flex">
         <div className="bg-hero h-fit tablet:h-[35rem]  pt-28 w-[100%] tablet:w-1/2 desktop:h-[42rem] desktop:pt-52 desktop:pl-36">
           <h2 className="text-secondary font-extrabold text-l text-center desktop:text-left ">
             GREETINGS FROM
           </h2>
-          <h1 className="text-primary font-extrabold text-[2rem]  text-center w-[85%] m-auto py-5 desktop:text-left desktop:m-0 desktop:text-[3rem] desktop:pb-0 desktop:pt-2">
+          <h1 className="text-primary font-extrabold text-[2rem]  text-center w-[85%] m-auto py-5 desktop:text-left desktop:m-0 desktop:text-[2.5rem] desktop:pb-0 desktop:pt-2">
             CSIT ASSOCATION OF <br />
             BMC
           </h1>

@@ -10,7 +10,7 @@ function RunningEvent(props) {
     <p>Description: {Data.decs}</p>
     <p>status: {Data.status}</p>
     <div>
-    <iframe title={Data.title} src={`${Data.formLink}/viewform?embedded=true`} width="640" height="735">Loading…</iframe>
+    {/* <iframe title={Data.title} src={`${Data.formLink}/viewform?embedded=true`} width="640" height="735">Loading…</iframe> */}
     </div>
     </div>
   </>

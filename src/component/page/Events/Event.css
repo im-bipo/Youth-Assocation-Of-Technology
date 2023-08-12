@@ -1,0 +1,11 @@
+.heroEvent{
+    background-image: url('../../../assets/img/eventBg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.listBg{
+    background-image: url("/src/assets/img/5026562.png");
+    background-size: cover;
+    background-position: center;
+
+}

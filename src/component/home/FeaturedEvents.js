@@ -31,7 +31,7 @@ function FeaturedEvents() {
       </div>
       <div className='p-5 pt-0'>
       <h3 className='text-xl font-semibold text-primary'>{item.title}</h3>
-      <p className='text-primary text-sm'>{item.pra}</p>
+      <p className='text-primary text-sm'>{item.decs}</p>
       <p className='w-fit text-sm font-medium text-secondary pt-2'>View
         <hr className='border-primary relative left-2 w-[70%] border'/>
       </p>
