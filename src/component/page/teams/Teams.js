@@ -2,7 +2,6 @@ import React from 'react'
 import { Link, useLoaderData } from 'react-router-dom'
 function Teams() {
 const members = useLoaderData()
-console.log(members)
   return (
     <>
     <div>Teams Members</div>

@@ -25,7 +25,7 @@ export const NavLinkList = [
       path:'/resources'
     },
     {
-      id:5,
+      id:6,
       name:'Contact',
       path:'/contact'
     }

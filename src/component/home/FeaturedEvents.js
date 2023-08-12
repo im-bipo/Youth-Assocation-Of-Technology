@@ -17,7 +17,7 @@ function FeaturedEvents() {
   return (
     <>
     <div className='desktop:bg-gray-200 desktop:h-[40rem] m-0'>
-    <div className='bg-primary m-5 mt-0 rounded-xl flex justify-center flex-wrap tablet:flex-col tablet:items-center desktop:flex-row items-start desktop:h-[20rem] desktop:mb-[20rem] py-10 desktop:pt-5'>
+    <div className='bg-primary m-5 mt-0 rounded-xl flex justify-center flex-wrap tablet:flex-col tablet:items-center desktop:flex-row desktop:items-start desktop:h-[20rem] desktop:mb-[20rem] py-10 desktop:pt-5'>
       <h2 className='text-white text-center pb-10 font-semibold text-xl w-[100%]'>
         Featured Events
         <hr className='w-32 border-[1.5px] border-secondary m-auto' />

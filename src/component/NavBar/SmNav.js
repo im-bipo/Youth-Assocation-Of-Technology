@@ -37,7 +37,7 @@ function SmNav() {
         </div>
 
         {NavList.map((item) => (
-          <NavLink
+          <NavLink key={item.id}
             onClick={toggleNav}
             to={item.path}
             className="py-3 my-10 border-primary border-b-2 "
