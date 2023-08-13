@@ -50,7 +50,7 @@ function MemberSocialAccount(props) {
     <div>
       <div className='flex flex-wrap'>
         {Object.entries(socialLink).map(([key, value]) => (
-          <div key={key} className='px-2 text-xl text-primary'>
+          <div key={key} className='px-2 text-2xl text-primary'>
             {displayLinks(key,value)}
           </div>
         ))}

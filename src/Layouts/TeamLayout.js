@@ -1,10 +1,14 @@
 import React from 'react'
+import SectionHeader from '../component/SectionHeader'
 import { Outlet } from 'react-router-dom'
 
 function TeamLayout() {
   return (
     <>
-    <div>TeamLayout</div>
+    <SectionHeader 
+    title = "LINE-UP'S"
+    subtitle="CSIT ASSOCATION OF BMC"
+    />
     <Outlet/>
     </>
     

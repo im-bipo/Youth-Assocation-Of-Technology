@@ -14,19 +14,19 @@ export const NavLinkList = [
       name:'Event',
       path:'/events'
     },
-    {
-      id:3,
-      name:'Project',
-      path:'/projects'
-    },
-    {
-      id:5,
-      name:'Resources',
-      path:'/resources'
-    },
+    // {
+    //   id:3,
+    //   name:'Project',
+    //   path:'/projects'
+    // },
+    // {
+    //   id:5,
+    //   name:'Resources',
+    //   path:'/resources'
+    // },
     {
       id:6,
       name:'Contact',
       path:'/contact'
     }
-  ]
+  ];

@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import anime from "animejs";
-import logo from "../../assets/image/img.png";
+import logo from "../../assets/img/CSIT ASSOCATION OF BMC.png";
 // import logo from "../../assets/image/lggo.png";
 import "./logo.css";
 

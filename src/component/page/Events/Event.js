@@ -1,7 +1,8 @@
 import React from "react";
-import EventHeader from "./EventHeader";
+import SectionHeader from "../../SectionHeader";
 import { Link, useLoaderData } from "react-router-dom";
 function Event() {
+  document.title = "CSIT BMC | EVENTS "
   const EventData = useLoaderData().slice().reverse();
 
   const linkDisplay = (data) => {
@@ -19,7 +20,7 @@ function Event() {
   };
   return (
     <>
-      <EventHeader
+      <SectionHeader
         title="EVENTS"
         subtitle="ORGANIZED BY CSIT ASSOCATION OF BMC"
       />

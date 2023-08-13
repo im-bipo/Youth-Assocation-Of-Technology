@@ -5,8 +5,10 @@ import HeroLander from "./component/home/HeroLander";
 import Intro from "./component/home/Intro";
 import AboutUs from "./component/home/AboutUs";
 import FeaturedEvents from "./component/home/FeaturedEvents";
+import MessageAdmin from "./component/home/MessageAdmin";
 
 function Home() {
+  document.title ="CSIT BMC"
   return (
     <>
       <HeroLander/>
@@ -14,6 +16,7 @@ function Home() {
       <AboutUs/>
       <FeaturedEvents/>
       <WellWishers />
+      <MessageAdmin/>
       <CommunityPartners />
     </>
   );

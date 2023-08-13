@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import logo from "../../assets/image/img.png";
+import logo from "../../assets/img/CSIT ASSOCATION OF BMC.png";
 import "./NavBar.css";
 import { NavLink, Link, useLocation } from "react-router-dom";
 import { NavLinkList } from "./List";
@@ -7,6 +7,7 @@ import { NavLinkList } from "./List";
 const Navbar = () => {
   const Links = NavLinkList;
   const location = useLocation().pathname;
+  //the state is use for the switch between different nav bars when lander need the light and rest of the site need the dark theme text
   const [colorTheme, setColorTheme] = useState(""); // Initialize colorTheme state
   let ActiveClass = "";
   let isHome = true;

@@ -45,7 +45,7 @@ function SmNav() {
         ))}
       </div>
 
-      <div className="SmNav bottom-0 w-[100%] fixed flex items-center justify-center space-x-[20%] bg-gray-200 h-14 z-10">
+      <div className="SmNav  bottom-0 w-[100%]  mb-0  fixed flex items-center justify-center space-x-[20%] bg-gray-50 h-14 z-10">
         <NavLink
           to="/events"
           className="flex flex-col justify-center p-3 rounded-[50%]"
