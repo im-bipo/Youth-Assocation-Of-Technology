@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { NavLink, Link, Outlet } from "react-router-dom";
+import { Outlet } from "react-router-dom";
 import Navbar from "../component/NavBar/Navbar";
 import SmNav from "../component/NavBar/SmNav";
 import Footer from "../component/NavBar/Footer";
