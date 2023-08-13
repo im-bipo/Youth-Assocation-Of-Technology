@@ -8,7 +8,7 @@ function Footer() {
   
   const date = new Date().getFullYear()
   return (
-    <div className="w-[100%] pb-14 desktop:pb-0 bg-gray-800  text-white">
+    <div className="w-[100%] pb-14 desktop:pb-0 bg-gray-800  text-gray-300">
     <h2 className="text-center py-5">CSIT ASSOCATION OF BMC</h2>
     <div className="flex desktop:pl-[10rem] ">
       <div className="pb-1 w-1/3">
@@ -27,7 +27,7 @@ function Footer() {
       <div className="w-2/3 text-right p-5 desktop:pr-[10rem]">
         <div className="text-sm">
           <h6>Contact</h6>
-          <p>
+          <p className='py-2'>
           <a href="tel:+9779867824520">+9779867824520</a>
           </p>
           <p>
