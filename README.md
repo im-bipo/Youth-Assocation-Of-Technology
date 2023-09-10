@@ -1,3 +1,3 @@
 # neess-ass
 
-live demo: https://main--ness-ass.netlify.app/
+live demo: https://main--neess-ass.netlify.app/
