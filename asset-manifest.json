@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/temp/static/css/main.c0dd66ca.css",
+    "main.js": "/temp/static/js/main.d86ddab7.js",
+    "static/js/787.ebfc0469.chunk.js": "/temp/static/js/787.ebfc0469.chunk.js",
+    "static/media/hero-pic.png": "/temp/static/media/hero-pic.92e4a2e89922096135da.png",
+    "static/media/aboutImg.png": "/temp/static/media/aboutImg.5d65d72d5df1b14870ad.png",
+    "static/media/hero-bg-low.jpg": "/temp/static/media/hero-bg-low.0cd65c5f381c0f3cbb92.jpg",
+    "static/media/eventBg.png": "/temp/static/media/eventBg.0b331694ddac87908a39.png",
+    "static/media/president.jpg": "/temp/static/media/president.e53b4b2b6b3a2062d44b.jpg",
+    "static/media/CSIT ASSOCATION OF BMC.png": "/temp/static/media/CSIT ASSOCATION OF BMC.13f3ab84c0ca433b6013.png",
+    "static/media/slick.svg": "/temp/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/temp/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/temp/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/temp/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/temp/index.html",
+    "main.c0dd66ca.css.map": "/temp/static/css/main.c0dd66ca.css.map",
+    "main.d86ddab7.js.map": "/temp/static/js/main.d86ddab7.js.map",
+    "787.ebfc0469.chunk.js.map": "/temp/static/js/787.ebfc0469.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c0dd66ca.css",
+    "static/js/main.d86ddab7.js"
+  ]
+}
