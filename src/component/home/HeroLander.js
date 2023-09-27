@@ -1,6 +1,6 @@
 import React from "react";
 import "./HeroLander.css";
-import event from '../../assets/img/event.png'
+import event from "../../assets/img/event.png";
 import Typewriter from "typewriter-effect";
 import { NavLink } from "react-router-dom";
 function HeroLander() {
@@ -12,24 +12,28 @@ function HeroLander() {
             GREETINGS FROM
           </h2>
           <h1 className="text-primary font-extrabold text-[2rem]  text-center w-[85%] m-auto py-5 desktop:text-left desktop:m-0 desktop:text-[2.5rem] desktop:pb-0 desktop:pt-2">
-            CSIT ASSOCATION OF <br />
-            BMC
+            Youth ASSOCATION OF <br />
+            NEESS
           </h1>
-          <p className="text-center desktop:text-left">Creating World bit by bit</p>
-          <NavLink to={'/events'}>
+          <p className="text-center desktop:text-left">
+            Ast like, the like one.
+          </p>
+          <NavLink to={"/events"}>
             <button className=" hidden tablet:flex tablet:m-auto tablet:mt-5 desktop:mx-0 p-3 text-white rounded-lg my-5 bg-primary ">
-            <img src={event} alt="event" className="pr-2" />
-            Events
+              <img src={event} alt="event" className="pr-2" />
+              Events
             </button>
           </NavLink>
-          <div className="flex justify-center items-center 
+          <div
+            className="flex justify-center items-center 
           pb-10
-          desktop:block pt-36 desktop:pt-16 desktop:font-medium">
+          desktop:block pt-36 desktop:pt-16 desktop:font-medium"
+          >
             <Typewriter
               options={{
                 strings: [
                   "We are Non-Political",
-                  "We are Technoligical",
+                  "We are Environmentally Friendly",
                   "We are Non-profit",
                   "We are community",
                 ],
@@ -39,11 +43,9 @@ function HeroLander() {
             />
           </div>
         </div>
-          <div className="hidden w-1/2 pt-20 p-5 justify-center items-center tablet:flex">
-            <div className="hero-pic w-[100%] h-[100%] rounded-sm">
-
-            </div>
-          </div>
+        <div className="hidden w-1/2 pt-20 p-5 justify-center items-center tablet:flex">
+          <div className="hero-pic w-[100%] h-[100%] rounded-sm"></div>
+        </div>
       </div>
     </>
   );

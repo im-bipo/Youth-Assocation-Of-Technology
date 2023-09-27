@@ -4,9 +4,13 @@ import aboutImg from "../../assets/img/aboutImg.png";
 function AboutUs() {
   return (
     <>
-        <div className="bg-[#EDF3FB] desktop:flex">
-          <img src={aboutImg} alt="CSIT Assocation BMC" className="desktop:w-[45%] object-cover p-1 desktop:m-5 rounded-xl"/>
-          <div className="p-5 desktop:p-14">
+      <div className="bg-[#EDF3FB] desktop:flex">
+        <img
+          src={aboutImg}
+          alt="CSIT Assocation BMC"
+          className="desktop:w-[45%] object-cover p-1 desktop:m-5 rounded-xl"
+        />
+        <div className="p-5 desktop:p-14">
           <h2 className="text-center text-secondary font-semibold text-2xl py-2 desktop:text-left">
             About Us
           </h2>
@@ -30,7 +34,7 @@ function AboutUs() {
               veritatis impedit voluptate molestias.
             </p>
           </div>
-          </div>
+        </div>
       </div>
     </>
   );

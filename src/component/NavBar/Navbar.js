@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import logo from "../../assets/img/CSIT ASSOCATION OF BMC.png";
+import logo from "../../assets/img/logo.png";
 import "./NavBar.css";
 import { NavLink, Link, useLocation } from "react-router-dom";
 import { NavLinkList } from "./List";
